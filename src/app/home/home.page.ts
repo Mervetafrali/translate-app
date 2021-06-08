@@ -12,7 +12,7 @@ export class HomePage {
   ionViewWillEnter() {
     this.platform.ready().then(() => {
       var configInput = {
-        apiKey: "CV5HZ3MSQZay7PvwDSrUxVvRUG8xzef70XyoDo88OapZbV5vw5Q+IpUdQaru34jC+OO/bIE/+E4YJj8m4ddTBEorDgXh",
+        apiKey: "CV5HZ3MSQZ...UdQaru34jC+OO/bIE/+E4..4ddTBEorDgXh",
       };
       HMSMLKit.serviceInitializer(configInput);
     });

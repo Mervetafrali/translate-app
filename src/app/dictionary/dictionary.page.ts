@@ -20,20 +20,20 @@ export class DictionaryPage  {
   }
   listKeys() {
     this.storage.forEach((value: any, key: string, iterationNumber: Number) => {
-      console.log("key " + key);
-      console.log("iterationNumber " + iterationNumber);
-      console.log("value " + value);
+     // console.log("key " + key);
+     // console.log("iterationNumber " + iterationNumber);
+     // console.log("value " + value);
       let obj={key:key,value:value};
       this.words.push(obj);
 
     });
   }
   removeKey() {
-    this.storage.remove("Merhaba ").then(() => {
-      console.log("adad")
+   /* this.storage.remove("value ").then(() => {
+      console.log("removed")
     }).catch((error) => {
       console.log('removed error for ' + "merhaba" + '', error);
-    });
+    });*/
   }
 
   
